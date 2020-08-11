@@ -19,6 +19,3 @@
 
     # Convert `<img inline src="*.svg" />` to `<img>` and not `<svg>`.
     svgAsImage = false
-
-[[plugins]]
-  package = "netlify-plugin-image-optim"
