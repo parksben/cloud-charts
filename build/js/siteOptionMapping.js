@@ -8,8 +8,6 @@ window.siteOptionMapping = {
     { text: '首页', href: '/' },
     { text: '设计语言', href: '/design/Layout' },
     { text: '图表示例', href: '/example/Recommendation' },
-    // TODO: 开源版本教程内容需要重写，所以先隐藏掉教程模块
-    // { text: '开发指南', href: '/quickstart/userGuide' },
     { text: 'API文档', href: '/documentation/config' },
     {
       text: '可视化编辑',
