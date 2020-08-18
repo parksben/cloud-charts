@@ -72,10 +72,19 @@ window.siteOptionMapping = {
     'Recommendation-ip',
     'Recommendation-instance',
   ].join('\n'),
-  video_source: {
-    sloganBg: 'videos/widgets_home.mp4',
-    featLeft: 'videos/home-s-1.mp4',
-    featCenter: 'videos/home-s-2.mp4',
-    featRight: 'videos/home-s-3.mp4',
-  },
+  video_source: window.location.host.includes('gitee.io')
+    ? {
+        sloganBg:
+          'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-1.mp4?raw=true',
+        featLeft: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-1.mp4',
+        featCenter:
+          'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-2.mp4',
+        featRight: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-3.mp4',
+      }
+    : {
+        sloganBg: 'videos/widgets_home.mp4',
+        featLeft: 'videos/home-s-1.mp4',
+        featCenter: 'videos/home-s-2.mp4',
+        featRight: 'videos/home-s-3.mp4',
+      },
 };
