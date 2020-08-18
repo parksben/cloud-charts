@@ -74,12 +74,10 @@ window.siteOptionMapping = {
   ].join('\n'),
   video_source: window.location.host.includes('gitee.io')
     ? {
-        sloganBg:
-          'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-1.mp4?raw=true',
-        featLeft: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-1.mp4',
-        featCenter:
-          'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-2.mp4',
-        featRight: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-3.mp4',
+        sloganBg: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/widgets_home.mp4?raw=true',
+        featLeft: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-1.mp4?raw=true',
+        featCenter: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-2.mp4?raw=true',
+        featRight: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-3.mp4?raw=true',
       }
     : {
         sloganBg: 'videos/widgets_home.mp4',
