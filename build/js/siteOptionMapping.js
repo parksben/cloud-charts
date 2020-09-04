@@ -19,6 +19,12 @@ window.siteOptionMapping = {
         },
       ],
     },
+    {
+      text: 'Github',
+      href: 'https://github.com/alibaba/cloud-charts',
+      icon: 'https://img.alicdn.com/tfs/TB1V5GhTNv1gK0jSZFFXXb0sXXa-200-200.svg',
+      external: true,
+    },
   ]),
   header_logo: '//img.alicdn.com/tfs/TB1VYVLQ7T2gK0jSZFkXXcIQFXa-353-60.png',
   header_logo_content: '//img.alicdn.com/tfs/TB1mzN0c0Tfau8jSZFwXXX1mVXa-353-60.png',
@@ -74,10 +80,14 @@ window.siteOptionMapping = {
   ].join('\n'),
   video_source: window.location.host.includes('gitee.io')
     ? {
-        sloganBg: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/widgets_home.mp4?raw=true',
-        featLeft: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-1.mp4?raw=true',
-        featCenter: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-2.mp4?raw=true',
-        featRight: 'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-3.mp4?raw=true',
+        sloganBg:
+          'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/widgets_home.mp4?raw=true',
+        featLeft:
+          'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-1.mp4?raw=true',
+        featCenter:
+          'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-2.mp4?raw=true',
+        featRight:
+          'https://github.com/alibaba/cloud-charts/blob/netlify/build/videos/home-s-3.mp4?raw=true',
       }
     : {
         sloganBg: 'videos/widgets_home.mp4',
